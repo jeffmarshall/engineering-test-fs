@@ -16,5 +16,12 @@ services:
     build: .
     ports:
      - "1235:1235"
+  client:
+    build: ./client
+    ports:
+      - "3000:3000"
+    environment:
+      - API_HOST=apis
+      - API_PORT=1235
 volumes:
   pg-data:

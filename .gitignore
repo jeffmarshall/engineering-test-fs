@@ -1,3 +1,5 @@
 *.iml
 _test
 _submissions/
+client/node_modules
+client/.next
