@@ -150,3 +150,31 @@ type: List[float]
 Send us your completed app, along with instructions for how to run it.  Consider sharing your completed app as a Docker image that runs alongside the API service provided.
 
 Please include a list of what features you implemented, or if you did the freestyle, describe the features you came up with.  Add any comments or things you want the reviewer to consider when looking at your submission.  You don't need to be too detailed, as there will likely be a review done with you where you can explain what you've done.
+
+
+
+## Solution
+
+- React app built with Next.js
+- Bootstrap 4
+
+
+### Usage
+
+```bash
+$ docker-compose up
+# the app should be available at http://localhost:3000
+```
+
+
+### Features
+
+- Search
+- Details
+- Visual Search (barely started)
+
+### Notes
+
+I had to find a working combination of dependency versions and freeze them in the apis Dockerfile, then I created an app that ipmlemented the search and detail functionality. Once I was satisfied with the usefulness of the app, I approached the usability aspect. I gave it some shared layout, added bootstrap and and some basic validation.
+
+It's not flawless, but I got as far as I could with the challenge in 4 hours, as recommended.
