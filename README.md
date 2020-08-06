@@ -175,6 +175,6 @@ $ docker-compose up
 
 ### Notes
 
-I had to find a working combination of dependency versions and freeze them in the apis Dockerfile, then I created an app that ipmlemented the search and detail functionality. Once I was satisfied with the usefulness of the app, I approached the usability aspect. I gave it some shared layout, added bootstrap and and some basic validation.
+I had to find a working combination of dependency versions and [freeze them](https://github.com/jeffmarshall/engineering-test-fs/commit/f459391d32cc922349984a32eb7d52f744ba012e) in the apis Dockerfile, then I created an app that ipmlemented the search and detail functionality. Once I was satisfied with the usefulness of the app, I approached the usability aspect. I gave it some shared layout, added bootstrap and and some basic validation.
 
 It's not flawless, but I got as far as I could with the challenge in 4 hours, as recommended.
